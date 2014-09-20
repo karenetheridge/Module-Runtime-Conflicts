@@ -1,0 +1,6 @@
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Module-Runtime-Conflicts-*/
+/Module-Runtime-Conflicts-*.tar.gz
