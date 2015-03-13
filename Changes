@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.002     2015-03-13 05:57:39Z
           - make this module actually check the proper versions :/
           - add entries for MooseX:NonMoose and Elasticsearch, both of which
             also had issues with changes to Module::Runtime
