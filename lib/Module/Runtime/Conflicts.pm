@@ -5,7 +5,7 @@ package Module::Runtime::Conflicts;
 # KEYWORDS: conflicts breaks modules prerequisites upgrade
 # vim: set ts=8 sts=4 sw=4 tw=78 et :
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use Module::Runtime ();
 use Dist::CheckConflicts
