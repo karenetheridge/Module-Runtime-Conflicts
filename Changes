@@ -2,6 +2,8 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
           - make this module actually check the proper versions :/
+          - add entries for MooseX:NonMoose and Elasticsearch, both of which
+            also had issues with changes to Module::Runtime
 
 0.001     2014-09-20 03:24:39Z
           - Initial release.

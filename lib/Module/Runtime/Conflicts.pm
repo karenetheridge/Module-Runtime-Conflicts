@@ -11,8 +11,13 @@ use Module::Runtime ();
 use Dist::CheckConflicts
     -dist      => 'Module::Runtime',
     -conflicts => {
+        # listed modules are the highest *non-working* version when used in
+        # combination with the indicated version of Module::Runtime
+
         eval { Module::Runtime->VERSION('0.014'); 1 } ? (
             'Moose' => '2.1202',
+            'MooseX::NonMoose' => '0.24',
+            'Elasticsearch' => '1.00',
         ) : (),
     },
     -also => [
