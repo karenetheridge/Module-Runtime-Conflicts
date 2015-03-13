@@ -9,7 +9,7 @@ use Module::Runtime ();
 use Dist::CheckConflicts
     -dist      => 'Module::Runtime',
     -conflicts => {
-        eval { Module::Runtime->VERSION('0.14'); 1 } ? ( 'Moose' => '2.1202' ) : (),
+        eval { Module::Runtime->VERSION('0.014'); 1 } ? ( 'Moose' => '2.1202' ) : (),
     },
     -also => [
         'Package::Stash::Conflicts',
