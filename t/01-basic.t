@@ -1,5 +1,5 @@
 use strict;
-use warnings FATAL => 'all';
+use warnings;
 
 # this test resembles one that would be generated with Dist::Zilla::Plugin::Test::CheckBreaks 0.011
 
