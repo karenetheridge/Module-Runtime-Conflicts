@@ -3,7 +3,7 @@ use warnings;
 package Module::Runtime::Conflicts;
 # ABSTRACT: Provide information on conflicts for Module::Runtime
 # KEYWORDS: conflicts breaks modules prerequisites upgrade
-# vim: set ts=8 sw=4 tw=78 et :
+# vim: set ts=8 sts=4 sw=4 tw=78 et :
 
 package Module::Runtime::Conflicts;
 
