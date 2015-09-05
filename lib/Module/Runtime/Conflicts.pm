@@ -45,14 +45,6 @@ This module provides conflicts checking for L<Module::Runtime>, which had a
 recent release that broke some versions of L<Moose>. It is called from
 L<Moose::Conflicts> and C<moose-outdated>.
 
-=head1 SUPPORT
-
-=for stopwords irc
-
-Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Module-Runtime-Conflicts>
-(or L<bug-Module-Runtime-Conflicts@rt.cpan.org|mailto:bug-Module-Runtime-Conflicts@rt.cpan.org>).
-I am also usually active on irc, as 'ether' at C<irc.perl.org>.
-
 =head1 SEE ALSO
 
 =for :list
