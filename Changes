@@ -1,6 +1,7 @@
 Revision history for Module-Runtime-Conflicts
 
 {{$NEXT}}
+          - Makefile.PL now also checks for incompatible Moose versions
 
 0.002     2015-03-13 05:57:39Z
           - make this module actually check the proper versions :/
