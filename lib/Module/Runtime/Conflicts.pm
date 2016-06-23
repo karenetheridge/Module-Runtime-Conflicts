@@ -1,9 +1,9 @@
 use strict;
 use warnings;
 package Module::Runtime::Conflicts;
+# vim: set ts=8 sts=4 sw=4 tw=115 et :
 # ABSTRACT: Provide information on conflicts for Module::Runtime
 # KEYWORDS: conflicts breaks modules prerequisites upgrade
-# vim: set ts=8 sts=4 sw=4 tw=115 et :
 
 our $VERSION = '0.003';
 
