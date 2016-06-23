@@ -5,7 +5,7 @@ package Module::Runtime::Conflicts;
 # ABSTRACT: Provide information on conflicts for Module::Runtime
 # KEYWORDS: conflicts breaks modules prerequisites upgrade
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 use Module::Runtime ();
 use Dist::CheckConflicts
